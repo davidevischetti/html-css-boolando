@@ -1,5 +1,67 @@
+/* Regole base */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Stile items */
+.set-items {
+    width: 80%;
+    margin: auto;
+}
+
+.item {
+    width: 33%;
+    position: relative;
+    display: inline-block;
+}
+
+/* Stile photo */
+.photo {
+    max-width: 100%;
+}
+
+.photo.change {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.item:hover .photo.change {
+    display: inline-block;
+}
+
+/* Stile heart */
+.heart {
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+/* Stile info */
+.info {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.sale {
+    background-color: #f00;
+    padding: 5px 10px;
+}
+
+.eco {
+    background-color: #0a0;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+
