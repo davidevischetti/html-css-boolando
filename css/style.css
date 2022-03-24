@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Stile items */
 .set-items {
     width: 80%;
     margin: auto;
+    margin-top: 100px;
 }
 
 .item {
@@ -66,16 +68,18 @@
 
 /* Stile description */
 .description {
+    height: 100px;
     position: absolute;
     left: 0;
+    bottom: -100px;
 }
 
-.saled-price {
+.price {
     color: #e00;
     font-weight: bold;
 }
 
-.price {
-    text-decoration: dashed;
+.original-price {
+    text-decoration: line-through;
 }
 
