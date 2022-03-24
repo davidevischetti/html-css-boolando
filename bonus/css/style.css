@@ -1,0 +1,142 @@
+/* Regole base */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stile barra di navigazione */
+.nav-bar {
+    height: 80px;
+    width: 100%;
+    background-color: #f60;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+#logo {
+    height: 80%;
+    line-height: 80%;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+
+#logo-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.search-bar {
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.search-image {
+    vertical-align: middle;
+    height: 30px;
+    width: auto;
+}
+
+.search {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 3px;
+}
+
+/* Stile items */
+.set-items {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.item {
+    width: 33%;
+    position: relative;
+    display: inline-block;
+}
+
+/* Stile photo */
+.photo {
+    max-width: 100%;
+    border: 2px solid #000;
+}
+
+.photo.change {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.item:hover .photo.change {
+    display: inline-block;
+    border: 2px solid #e00;
+}
+
+/* Stile heart */
+.heart {
+    background-color: #e00;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.heart:hover {
+    background-color: #fa0;
+    cursor: pointer;
+}
+
+
+/* Stile info */
+.info {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.sale {
+    background-color: #e00;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.eco {
+    background-color: #070;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+/* Stile description */
+.description {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+}
+
+.price {
+    color: #e00;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
