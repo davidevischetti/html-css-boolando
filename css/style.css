@@ -54,14 +54,28 @@
 }
 
 .sale {
-    background-color: #f00;
+    background-color: #e00;
     padding: 5px 10px;
 }
 
 .eco {
-    background-color: #0a0;
+    background-color: #070;
     padding: 5px 10px;
     margin-left: 5px;
 }
 
+/* Stile description */
+.description {
+    position: absolute;
+    left: 0;
+}
+
+.saled-price {
+    color: #e00;
+    font-weight: bold;
+}
+
+.price {
+    text-decoration: dashed;
+}
 
